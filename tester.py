@@ -46,7 +46,7 @@ def time_Exec(num_iters, func, *args, **kwargs):
 
 #####################
 def test_algorithm(sortfunc, outfilename,
-            trials = 1, scrambleamt = 5, start = 1, end = 8, step = 1 ):
+            trials = 1, scrambleamt = 5, start = 1, end = 10, step = 1 ):
   file = open(outfilename, "w")
   file.write("size,random,reversed,shuffled")
   for cursize in range(start, end + step, step):
